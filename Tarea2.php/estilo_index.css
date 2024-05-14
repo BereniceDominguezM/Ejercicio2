@@ -1,0 +1,38 @@
+/* Estilo para el formulario de inicio de sesión */
+form[name="frmLogin"] {
+    */background-color: silver; /* Fondo del formulario */
+    padding: 20px; /* Espaciado interior del formulario */
+    border-radius: 10px; /* Borde redondeado del formulario */
+}
+
+/* Estilo para el título "Acesso" */
+#titulo {
+    font-size: 24px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Alineación centrada */
+    margin-bottom: 50px; /* Espacio inferior */
+}
+
+/* Estilo para los campos de texto */
+input[type="text"]
+input[type="password"] {
+    width: 80%; /* Ancho completo */
+    padding: 10px; /* Espaciado interior */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para el botón de login */
+#boton {
+    background-color: #ffcc00; /* Fondo del botón */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor tipo mano */
+}
+
+/* Estilo para la imagen */
+img {
+    display: block; /* Mostrar como bloque para centrar */
+    margin: 0 auto; /* Margen automático para centrar */
+}
